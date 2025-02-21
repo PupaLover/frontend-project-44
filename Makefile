@@ -42,3 +42,14 @@ brain-even:
 brain-calc:
 	node bin/brain-calc.js
 
+.PHONY: brain-gcd
+brain-gcd:
+	node bin/brain-gcd.js
+
+.PHONY: brain-progression
+brain-progression:
+	node bin/brain-progression.js
+
+.PHONY: brain-prime
+brain-prime:
+	node bin/brain-prime.js

@@ -9,7 +9,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const func = new Function();
+const func = new Function();2
 
 
 function getRandomOperator() {
